@@ -7,7 +7,7 @@ node{
         sshagent(['ansible_demo']) {
          sh 'ssh -o StrictHostKeyChecking=no ubuntu@172.31.92.230 '
          sh 'scp /var/lib/jenkins/workspace/devops-aws/* ubuntu@172.31.92.230:/home/ubuntu '
-         sh 'ssh -o StrictHostKeyChecking=no ubuntu@172.31.92.230  unzip -o devops-jenkins-aws-k8s-ansible.zip '
+         sh 'ssh -o StrictHostKeyChecking=no ubuntu@172.31.92.230  unzip -o devops-project-1.zip '
       }
     }
 //      stage('build docker image'){
