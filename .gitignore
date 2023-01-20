@@ -1,0 +1,15 @@
+node_modules
+sandbox.txt
+devops.pem
+
+# terraform files
+**/.terraform/*
+
+*.tfstate
+*.tfstate.*
+
+*.log
+
+*.pem
+
+*.tfvars
