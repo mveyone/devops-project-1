@@ -13,3 +13,5 @@ devops.pem
 *.pem
 
 *.tfvars
+
+*.hcl
